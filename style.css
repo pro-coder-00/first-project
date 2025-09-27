@@ -1,0 +1,355 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x:hidden !important;
+}
+
+
+body{
+    overflow-x:hidden !important;
+}
+
+.ul-items li {
+    list-style: none;
+}
+.ul-items li a{
+    text-decoration: none;
+    color: black;
+}
+.ul-items li a:hover{
+    border-bottom: 1px solid black;
+}
+.btn-1{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding:8px 40px;
+    font-weight: 400;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn-1:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.second-section{
+    background-image: url(./images/Rectangle\ 58.png);
+    height: 55vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.second-section h1{
+    font-size: 6rem;
+    color: #fff;
+    font-size: 5rem;
+    padding-top: 15rem;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.img1
+{
+    width:100%;
+    border-radius: 20px;
+    transition: 0.5s !important;
+}
+.img1:hover{
+    transform: scaleX(0.9)!important;
+    transition: 0.5s !important ;
+}
+.lady-section{
+    background-color: #B4B2AD;
+}
+.lady-section-child{
+    padding-top: 30px;
+}
+.footer-ul-items{
+    list-style: none;
+}
+.footer-ul-items li{
+    padding-top: 15px;
+}
+.footer-ul-items li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+    transition: 0.5s;
+}
+.footer-ul-items li a:hover{
+    border-bottom: 1px solid #fff;
+    transition: 0.5s;
+}
+
+
+/* MEDIA QUERIES SECTION : */
+
+
+
+
+@media screen and (max-width:1050px) {
+
+.ul-items
+{
+    /* display: none; */
+    gap: 0.8rem !important;
+}
+.lady-section-child{
+    margin-top: 2rem !important;
+    padding-top: 10px;
+}
+.jhon-rate{
+    font-size: 12px !important;
+}
+.footer-p{
+    font-size: 15px !important;
+}
+
+}
+
+
+@media screen and (max-width:870px)
+ {
+
+    .ul-items li a
+    
+    {
+        display: none;
+    }
+    .firstp{
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+    
+    .second-section h1{
+        padding-top: 9rem;
+        text-align: center!important;
+    }
+    .firstp{
+        margin-bottom: 2rem !important;
+        font-size: 13px !important;
+    }
+    .firsth4{
+        margin-bottom: 1.5rem !important;
+    }
+    .lady-section-child{
+        margin-top: 1rem !important;
+    }
+    .thirdh1{
+        padding-top: 1.5rem !important;
+        font-size: 21px !important;
+    }
+    .btn2{
+        margin-top: 1.5rem !important;
+    }
+    .jhon-rate{
+        font-size: 8px !important;
+    }
+    .aboutus-p{
+        font-size: 17px !important;
+    }
+    .footer-p{
+        font-size: 11px !important;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+
+    .ul-items li a
+    
+    {
+        display: none;
+    }
+    .firstp{
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+    .btn-1
+    {
+        display: none;
+    }
+    .firsth1{
+        text-align: center;
+    }
+    .firsth4{
+        text-align: center;
+    }    
+    .thirdh1{
+        text-align: center;
+    }
+    .btn2{
+        display: flex;
+        margin: 0 auto;
+    }
+    .heading-h1{
+        font-size:3rem !important;
+        padding-top: 6rem !important;
+    }
+    .second-last-section h1{
+        font-size: 35px !important;
+    }
+    .footer-p{
+        font-size: 12px !important;
+    }
+    .good-deal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aboutus-p {
+        font-size: 11px !important;
+    }
+  
+}
+
+
+@media screen and (max-width:435px) {
+
+    .ul-items li a
+    
+    {
+        display: none;
+    }
+    .btn-1
+    {
+        display: none;
+    }
+    .firsth1{
+        text-align: center;
+    }
+    .firsth4{
+        text-align: center;
+    }    
+    .thirdh1{
+        text-align: center;
+    }
+    .btn2{
+        display: flex;
+        margin: 0 auto;
+    }
+    .heading-h1{
+        font-size:2rem !important;
+        padding-top: 4rem !important;
+    }
+    .footer-p{
+        font-size: 10px !important;
+    }
+    .good-deal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aboutus-p {
+        font-size: 8px !important;
+    }
+  
+}
+
+
+@media screen and (max-width:400px) {
+
+    .ul-items li a   
+    {
+        display: none;
+    }
+    .btn-1
+    {
+        display: none;
+    }
+    .firstp{
+        font-size: 14px !important;
+    }
+    .firsth1{
+        text-align: center;
+    }
+    .firsth4{
+        text-align: center;
+    }    
+    .thirdh1{
+        text-align: center;
+    }
+    .btn2{
+        display: flex;
+        margin: 0 auto;
+    }
+    .heading-h1{
+        font-size:2rem !important;
+        padding-top: 4rem !important;
+    }
+    .footer-p{
+        font-size: 9px !important;
+    }
+    .good-deal{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (max-width:390px) {
+
+    .ul-items li a   
+    {
+        display: none;
+    }
+    .firstp{
+        text-align: center !important;
+        font-size: 13px !important;
+    }
+    .btn-1
+    {
+        display: none;
+    }
+    .firsth1{
+        text-align: center;
+    }
+    .firsth4{
+        text-align: center;
+    }    
+    .thirdh1{
+        text-align: center;
+    }
+    .btn2{
+        display: flex;
+        margin: 0 auto;
+    }
+    .jhon-rate{
+        font-size: 14px !important;
+    }
+    .heading-h1{
+        font-size:2rem !important;
+        padding-top: 4rem !important;
+    }
+    .footer-p {
+        font-size: 8px !important;
+    }
+    .aboutus-p {
+        font-size: 7px !important;
+    }
+}
+
+
+@media screen and (max-width:350px){
+    .firstp{
+        text-align: center !important;
+        font-size: 12px !important;
+    }
+    .heading-h1{
+        letter-spacing: 8px !important;
+    }
+    .jhon-rate{
+        font-size: 13px !important;
+    }
+    .footer-p{
+        font-size: 7px !important;
+    }
+    .good-deal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aboutus-p {
+        font-size: 6px !important;
+    }
+}
